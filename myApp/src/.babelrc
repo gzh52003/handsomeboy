@@ -1,0 +1,11 @@
+{
+    "presets": ["babel-preset-expo"],
+    // "plugins": [
+    //     ["import", { "libraryName": "antd-mobile-rn" }]
+    // ]
+
+
+    "plugins": [
+        ["@babel/plugin-proposal-class-properties", { "loose": true }]//用箭头函数
+    ]
+} 
